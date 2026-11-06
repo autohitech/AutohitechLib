@@ -28,3 +28,19 @@ ERC/DRC가 변경 전과 동일한지 확인. 동일하면 보드 로컬 `footpr
 범위 태그: `DIO`(SCM-AI/AO/DI/DO 공용) `RTD`(SCM-RTD) `008A` `4KEY` `AIW`
 `ES01` `ES12` `STA`(STANDARD-A) `STB`(STANDARD-B Library/) `STBP`(STANDARD-B 중첩구조)
 `PWR`(SCM-PWR)
+
+## 정본 승격 (구리 동등 입증)
+
+아래 9종은 변형 간 구리가 동일함을 `tools/compare-copper.py`로 증명하고 베어 이름으로 승격했다(기존 보드는 서픽스명 그대로 사용 중, 변경 없음).
+
+- `ADS1105`
+- `ATM_AV`
+- `Arduino_nano`
+- `ESP-02`
+- `MP1584EN_3V`
+- `MP1584EN_5V`
+- `OLED096`
+- `OLED096_PIN`
+- `TACT_SW4_PIN`
+
+나머지 20종 충돌은 구리가 실제로 다르므로 서픽스 유지. 정본 선정은 설계자 판단 필요.
