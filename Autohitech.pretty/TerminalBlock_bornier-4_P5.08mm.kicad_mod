@@ -1,0 +1,259 @@
+(footprint "TerminalBlock_bornier-4_P5.08mm"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "simple 4-pin terminal block, pitch 5.08mm, revamped version of bornier4")
+	(tags "terminal block bornier4")
+	(property "Reference" "J1"
+		(at 7.62 -1.905 180)
+		(layer "F.SilkS")
+		(uuid "c8505d3c-afab-4556-8626-c6aad1e64b0e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" " "
+		(at 7.6 4.75 180)
+		(layer "F.Fab")
+		(uuid "f47f6cd2-84dc-4b43-9e33-fd2fc10ccbfb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5ed1a506-df12-4b00-b152-8ee78e9632ef")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "18011393-0197-4ff3-9148-7873c3f3eaf6")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start 17.78 3.81)
+		(end 17.78 -3.81)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "953e5b41-e99e-42a3-b053-dbf669bab131")
+	)
+	(fp_line
+		(start 17.78 2.54)
+		(end -2.54 2.54)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "331c7fdb-2783-4fe5-bdfe-86e623625d1f")
+	)
+	(fp_line
+		(start -2.54 3.81)
+		(end 17.78 3.81)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8ea27799-aedd-48c4-ad78-957fda6df5ae")
+	)
+	(fp_line
+		(start -2.54 -3.81)
+		(end 17.78 -3.81)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "eff8f33f-bcbe-4952-927e-5d172c913431")
+	)
+	(fp_line
+		(start -2.54 -3.81)
+		(end -2.54 3.81)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b9be6ff7-386e-4b4a-8531-fe418836a6b7")
+	)
+	(fp_line
+		(start 17.97 4)
+		(end 17.97 -4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b83049be-784e-4a05-8899-75d764efa9c0")
+	)
+	(fp_line
+		(start 17.97 4)
+		(end -2.73 4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ecad3403-a68d-4d52-afc2-14c51e7fe16e")
+	)
+	(fp_line
+		(start -2.73 -4)
+		(end 17.97 -4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d7f62ba0-2ecc-498d-9a6d-38b98ab98bd1")
+	)
+	(fp_line
+		(start -2.73 -4)
+		(end -2.73 4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "18ad81e3-f7e9-448b-80b8-833b813680eb")
+	)
+	(fp_line
+		(start 17.72 3.75)
+		(end -2.43 3.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0d3c9c2f-61ef-4e33-a6df-572f2edbe288")
+	)
+	(fp_line
+		(start 17.72 -3.75)
+		(end 17.72 3.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0656c964-8cd9-4bc8-a394-fc4cc25b1fee")
+	)
+	(fp_line
+		(start -2.43 3.75)
+		(end -2.48 3.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "786db748-aa9c-443c-ab00-748584e895a0")
+	)
+	(fp_line
+		(start -2.48 3.75)
+		(end -2.48 -3.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2c1bf9bd-17a9-49be-85e1-6e3e443fbd53")
+	)
+	(fp_line
+		(start -2.48 2.55)
+		(end 17.72 2.55)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "30ad4667-21ef-485a-ad09-0b98ab7f3406")
+	)
+	(fp_line
+		(start -2.48 -3.75)
+		(end 17.72 -3.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "394d0b85-a024-4264-aed0-0a02716f1fb0")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 7.62 0 180)
+		(layer "F.Fab")
+		(uuid "bdb8c6d9-41e2-4987-ba6f-9d7045ec437f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 3 3)
+		(drill 1.52)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "88ef42e8-e1bf-45b0-ad82-c48755b49261")
+	)
+	(pad "2" thru_hole circle
+		(at 5.08 0)
+		(size 3 3)
+		(drill 1.52)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c99f16a1-b8fe-4246-8365-eab2e277644d")
+	)
+	(pad "3" thru_hole circle
+		(at 10.16 0)
+		(size 3 3)
+		(drill 1.52)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b7b79924-8b6b-4671-b974-bb0e66e3efc3")
+	)
+	(pad "4" thru_hole circle
+		(at 15.24 0)
+		(size 3 3)
+		(drill 1.52)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d492079a-06ca-4ece-87a3-4f20dadbf77f")
+	)
+	(embedded_fonts no)
+	(model "${KISYS3DMOD}/Terminal_Blocks.3dshapes/TerminalBlock_bornier-4_P5.08mm.wrl"
+		(offset
+			(xyz 7.619999886 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
